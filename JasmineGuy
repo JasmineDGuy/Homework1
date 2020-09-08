@@ -1,0 +1,32 @@
+import java.util.ArrayList; 
+
+public class MyClass {
+    public static void main(String args[]) {
+     // Create an arrayList with initial 
+     ArrayList<Integer> arrL = new ArrayList<Integer>(3); 
+     ArrayList<Integer> arrR = new ArrayList<Integer>(); 
+        
+        
+      // Add elements to ArrayList on left
+        arrL.add(4); 
+        arrL.add(11); 
+        arrL.add(55); 
+        arrL.add(99); 
+        
+        // Add elements to ArrayList on left
+        arrR.add(4); 
+        arrR.add(11); 
+        arrR.add(55); 
+        
+        
+        
+        System.out.println("Appending to an array");
+        System.out.println(arrL); 
+        System.out.println("Appending to a linked list");
+        System.out.println(arrR); 
+        System.out.println("Adding 99 to the linked list");
+        arrR.add(99); 
+        System.out.println(arrR);
+        
+    }
+}
